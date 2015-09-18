@@ -12,6 +12,10 @@
     "angularjs"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pasqLisena/angular-meter-polyfill.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
