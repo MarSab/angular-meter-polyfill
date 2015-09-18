@@ -9,7 +9,7 @@
         replace: false,
         template: '<div class="meter-inner-element"><div class="meter-bar">'+
         '<div ng-class="\'meter-\'+status+\'-value\'" ng-style="barStyle">'+
-        '</div></div></div>{{barStyle}}',
+        '</div></div></div>',
         scope: {
           min:"=",
           max:"=",
