@@ -1,0 +1,35 @@
+meter{
+  display: block;
+}
+.meter-inner-element{
+  box-sizing: border-box;
+  display: inline-block;
+  height: 1em;
+  width: 5em;
+  vertical-align: -0.2em;
+  -webkit-user-modify: read-only;
+  display: inline-block;
+}
+.meter-bar {
+  background: linear-gradient(rgb(221, 221, 221), rgb(238, 238, 238) 20%, rgb(204, 204, 204) 45%, rgb(204, 204, 204) 55%, rgb(221, 221, 221));
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-user-modify: read-only;
+}
+.meter-optimum-value, .meter-suboptimum-value, .meter-even-less-good-value {
+  max-width: 100%;
+  width: 0;
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-user-modify: read-only;
+}
+.meter-optimum-value {
+  background: linear-gradient(rgb(170, 221, 119), rgb(204, 238, 170) 20%, rgb(119, 170, 51) 45%, rgb(119, 170, 51) 55%, rgb(170, 221, 119));
+}
+.meter-suboptimum-value{
+  background: linear-gradient(rgb(255, 238, 119), rgb(255, 255, 204) 20%, rgb(221, 187, 51) 45%, rgb(221, 187, 51) 55%, rgb(255, 238, 119));
+}
+.meter-even-less-good-value{
+  background: linear-gradient(rgb(255, 119, 119), rgb(255, 204, 204) 20%, rgb(221, 68, 68) 45%, rgb(221, 68, 68) 55%, rgb(255, 119, 119));
+}
