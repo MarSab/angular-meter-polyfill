@@ -2,12 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Description here</title>
+  <title>Angular Meter Polyfill | Demo</title>
   <meta name="author" content="Pasquale Lisena - http://pasqlisena.github.io">
   <meta name="description" content="Demo page for Angular Meter Polyfill">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="angular-meter-polyfill.css">
+  <link rel="stylesheet" href="angular-meter-polyfill.min.css">
 </head>
 <body data-ng-app='DemoApp'>
   <dl>
@@ -37,18 +37,10 @@
 
   <!-- <script src="bower_components/angular/angular.min.js"></script> -->
   <script src="dependencies/vendor.js"></script>
-  <script src="angular-meter-polyfill.js"></script>
+  <script src="angular-meter-polyfill.min.js"></script>
 
   <script type="text/javascript" charset="utf-8">
   var app = angular.module('DemoApp', ['angular-meter-polyfill']);
-  app.controller('DemoController', function($scope) {
-    $scope.myCalendarDate = null;
-    $scope.myTimepickerDate = null;
-    $scope.myDateTime = null;
-    $scope.myDate = null;
-    $scope.myButtonDate = null;
-    $scope.myButtonDateTime = null;
-  });
   </script>
 
 

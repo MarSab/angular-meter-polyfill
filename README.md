@@ -11,7 +11,7 @@ Usage
 
 Install with bower:
 
-        bower install https://github.com/pasqLisena/angular-meter-polyfill.git
+        bower install angular-meter-polyfill
 
 
 Import Angular and  angular-meter-polyfill.min.js:
