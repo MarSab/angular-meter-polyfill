@@ -11,11 +11,11 @@
         '<div ng-class="\'meter-\'+status+\'-value\'" ng-style="barStyle">'+
         '</div></div></div>',
         scope: {
-          min:"=",
-          max:"=",
-          low:"=",
-          high:"=",
-          value:"="
+          min:"@",
+          max:"@",
+          low:"@",
+          high:"@",
+          value:"@"
         },
         controller:function($scope){
           $scope.barStyle = {width: 0};
